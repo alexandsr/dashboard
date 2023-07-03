@@ -1,0 +1,27 @@
+:root {
+    --bkgd: #284856;
+    --acct: #315768;
+    --dark: #182B32;
+    --lite: #e3f1fc;
+}
+
+@font-face {
+    font-family: Trueno;
+    src: url(font/trueno_round_bold.otf);
+    font-weight: bold;
+}  
+
+body, html {
+    padding: 0;
+    margin: 0;
+    background-color: var(--bkgd);
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    font-family: Trueno;
+    color: var(--lite);
+}
+
+.horizontalArranger {
+    display: inline-block;
+}
